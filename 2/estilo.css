@@ -1,0 +1,226 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  top: 0px;
+  background-color: #ffffff;
+  height: 100px;
+  padding: 0;
+  width: 1024px;
+}
+
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd8e7;
+
+  }
+
+  #iso{
+    background-image: url(Imagenes/logo-sushi-1.png);
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 200px;
+    height: 100px;
+    float: left;
+  }
+
+  #contenedor {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Botonera horizontal */
+  .botonera {
+    background-color: #444;
+    height: 100px;
+  }
+  
+  .botonera li{ 
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    margin-left: 25px;
+  }
+
+  .botonera a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  .botonera a:hover{
+    background-color: orange;
+  }
+
+
+  
+  /* Lista de elementos */
+  .lista {
+    list-style-type: none;
+  }
+  
+  .lista li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contacto */
+  #contacto p {
+    margin-top: auto;
+  }
+      
+.imagenes {
+    width: 100px;
+    height: 100px;
+ }
+    
+ body {
+  background-color: cornsilk;
+ }
+
+ 
+
+
+.columna-1 {
+  width: 50%;
+  display: block;
+  float: left;
+  
+}
+
+.columna-2 {
+  width: 50%;
+  display: block;
+  float: right;
+  margin-right: -150;
+}
+
+#contacto {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+#menu {
+  padding-top: 100px;
+}
+
+.menu-contenedor{
+  text-align: center;
+  list-style: none;
+  margin-bottom:50px;
+}
+
+#home{
+text-align: center;
+  list-style: none;
+  margin-bottom:50px;
+}
+
+#promos {
+  text-align: center;
+  list-style: none;
+  margin-bottom:50px;
+}
+
+
+
+#contacto-titulo{
+  color:#000000;
+  padding-bottom: 50px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+
+
+legend{
+  margin-bottom: 20px;
+  text-align: center;
+}
+label{
+  margin-left: 120px;
+}
+label, input, textarea{
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+input, textarea{
+  border-radius: 10px;
+  width: 800px;
+  margin-left: 120px;
+}
+
+#botonenviar{
+  width: 800px;
+  height: 30px;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #504f4f;
+  color: #000000;
+}
+#botonenviar:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+#sushi-time{
+  color: #000000;
+  text-decoration: none;
+  padding-top: 10px;
+}
+footer p{
+  padding: 10px 10px 0px 0px;
+}
+
+footer a{
+  background-color: none;
+  background-image: image(Imagenes/instagram.png);
+  padding: 10px 30px 0px 15px;
+}
+
+
+#botonera-nav{
+  width: 780px;
+  float: right; 
+}
+
+footer{
+  font-family: "Montserrat", sans-serif;
+  height: 100px;
+  background-color: #fdfda8;
+  padding-top: 50px;
+  text-align: center;
+  vertical-align: middle;
+  color: #75bcf3;
+  width: 1024px;
+  margin-bottom: 25px;
+}
+
+.mapa{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
